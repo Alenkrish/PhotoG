@@ -1,0 +1,19 @@
+name: 💡 Feature Request
+description: Suggest a new idea for the photo gallery
+title: "[FEATURE] - "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the feature
+      description: What feature would you like added?
+      placeholder: "Example: Add a dark mode toggle"
+    validations:
+      required: true
+
+  - type: textarea
+    id: value
+    attributes:
+      label: Value
+      description: Why is this feature useful?

@@ -1,0 +1,17 @@
+name: 🧹 Technical Debt
+description: Record tech debt that should be addressed
+title: "[TECH DEBT] - "
+labels: ["tech-debt"]
+body:
+  - type: textarea
+    id: area
+    attributes:
+      label: Code area
+      description: What part of the code needs cleanup?
+      placeholder: "Example: Gallery image loading logic"
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why cleanup is needed
+      description: Why is this tech debt important to fix?
